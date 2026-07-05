@@ -1,6 +1,6 @@
 import random
 play=["Rock","Paper","Scissors"]
-choice=int(input("What do you choose? Type 0 for rock, 1 for paper and 2 for scissors  "))
+choice=int(input("What do you choose? Type 0 for rock, 1 for paper and 2 for scissors: "))
 print("You chose ",play[choice])
 if play[choice]=="Rock":
     print('''
